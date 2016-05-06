@@ -1,0 +1,67 @@
+/*
+ Localizable.strings
+ Rigibi
+ 
+ Created by Roman Silin on 21/04/15.
+ Copyright (c) 2015 Roman Silin. All rights reserved.
+ */
+
+
+"RGB_G" = "V";
+
+// Tutorials
+
+"TUTORIAL_SWIPE" = "Faites glissez les carrés pour\nobtenir une nouvelle couleur";
+"TUTORIAL_BORDER" = "Mélangez les couleurs dans\nle bon ordre pour obtenir\nune couleur de bordure";
+"TUTORIAL_HEX_1" = "Essayez le bouton en\nforme d'œil dans le coin";
+"TUTORIAL_HEX_2" = "Tout casse-tête peut être\nrésolu par l'utilisation\nde ces codes de couleur";
+"TUTORIAL_FREEKEY" = "Une clé gratuit tous les *FREEKEY_LEVELSCOUNT* niveaux\nvous aidera lorsque vous\néprouverez des difficultés";
+
+
+"HEXHELP_01" = "Le <strong>RVB</strong> est un modèle de couleur dans lequel le <font color='#ff0000'>rouge</font>, le <font color='#00ff00'>vert</font> et le <font color='#0000ff'>bleu</font> sont ajoutés ensemble de diverses manières afin de reproduire un éventail de couleurs.";
+"HEXHELP_02" = "<strong>Le système hexadécimal</strong> est un système numérique de base 16. <strong>0-255</strong> en hexadécimal ressemble à <strong>00-FF</strong>.";
+"HEXHELP_03" = "<strong>Le mélange de deux couleurs</strong> donne une nouvelle couleur avec les valeurs du milieu de chaque canal RVB.<br><br><strong><font color='#ff00ff'>#FF00FF</font> + <font color='#ffff00'>#FFFF00</font> = <font color='#ff7f7f'>#FF7F7F</font><br><font color='#00ff00'>#00FF00</font> + <font color='#0000ff'>#0000FF</font> = <font color='#007f7f'>#007F7F</font><br><font color='#7f7fff'>#7F7FFF</font> + <font color='#ff0000'>#FF0000</font> = <font color='#bf3f7f'>#BF3F7F</font></strong><br><br>La plupart des niveaux sont résolus dans les valeurs simples <strong>00, 7F, FF</strong>, mais quelques niveaux ont des valeurs plus difficiles <strong>00, 3F, 7F, BF, FF</strong> (0-25-50-75-100% d'une couleur).";
+
+// Dialogs
+
+"DIALOG_ENJOYINGRIGIBI" = "\nAimez-vous Rigibi ?";
+"DIALOG_NOT" = "Pas vraiment";
+"DIALOG_YES" = "Oui !";
+
+"DIALOG_HOWABOUTARATING" = "Donnez-nous une note\nsur l'App Store ?";
+"DIALOG_HOWABOUTAFEEDBACK" = "Voudriez-vous nous faire\npart de vos remarques ?";
+"DIALOG_NOTHANKS" = "Non merci";
+"DIALOG_YESSURE" = "Oui, bien sûr";
+
+"DIALOG_YOUARETHEWINNER" = "Waouh !\n\nVous avez passé tous\nles niveaux, bien joué !";
+"DIALOG_THANKSFORPLAYING" = "Merci d'avoir joué !";
+"DIALOG_IGOTIT" = "Ramenez-moi";
+
+
+//"DIALOG_KEYS" = "Une clé gratuit\ntous les *FREEKEY_LEVELSCOUNT* niveaux\n\nSi vous avez besoin de plus :";
+"DIALOG_KEYS" = "Les clés vous aidera\nlorsque vous éprouverez\ndes difficultés";
+"DIALOG_STOREUNAVAILABLE" = "Le Store n'est pas disponible";
+"DIALOG_PURCHASED" = "  acheté";
+"DIALOG_PRICEDEVIDER" = "pour";
+"DIALOG_TRYCONNECT" = "Essayez de vous\nconnecter au Store";
+"DIALOG_RESTORE_PURCHASES" = "Restaurez\nles achats";
+"DIALOG_RESTORING" = "Restauration\nen cours...";
+"DIALOG_NOTRESTORED" = "Vous n'avez pas\nd'achat";
+"DIALOG_BACK" = "Retour\nau jeu";
+
+
+// Social sharing
+
+"SHARE_WIN" = "J'ai résolu tous les niveaux de #rigibi. J'ai un cerveau hyper-performant, ouais !";
+"SHARE_HELP" = "J'ai besoin d'aide ! Savez-vous comment résoudre ce casse-tête dans #rigibi ?";
+
+"MAIL_THEME" = "Feedback on Rigibi";
+"MAIL_BODY" = "Hi!\n\nI want to tell you that...";
+
+
+// Errors
+
+"SHARE_ERROR_TITLE" = "Désolé";
+"MAIL_ERROR_MESSAGE" = "Vous ne pouvez pas envoyer d'e-mails actuellement, assurez-vous de disposer d'un compte mail. De plus, vous pouvez trouver vos contacts sur internet : *RIGIBI_URL*.";
+"SHARE_FACEBOOK_ERROR_MESSAGE" = "Vous ne pouvez pas commenter actuellement, assurez-vous que votre appareil est connecté à l'Internet et que vous disposez d'un compte Facebook.";
+"SHARE_TWITTER_ERROR_MESSAGE" = "Vous ne pouvez pas tweeter actuellement, assurez-vous que votre appareil est connecté à l'Internet et que vous disposez d'un compte Tweeter.";

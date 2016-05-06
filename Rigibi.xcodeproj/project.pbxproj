@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95046F9313B0DF24EB034D16 /* libPods-Rigibi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6EB236D2700FC2604AB762A /* libPods-Rigibi.a */; };
+		E700446E1AEFA1A40065B596 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E700446D1AEFA1A40065B596 /* gameover.mp3 */; };
+		E70C621B1AF3BA3C005E902C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E70C621A1AF3BA3C005E902C /* Images.xcassets */; };
+		E71B4F581AAE5055008C12A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E71B4F571AAE5055008C12A2 /* LaunchScreen.xib */; };
+		E71E14DA1AFD121300A36A1A /* RSHexLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E71E14D91AFD121300A36A1A /* RSHexLabel.m */; };
+		E72291A81B015D6800F3483E /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E72291A71B015D6800F3483E /* GameKit.framework */; };
+		E760F5061AAF75E2006590E6 /* 99levels.xml in Resources */ = {isa = PBXBuildFile; fileRef = E760F5051AAF75E2006590E6 /* 99levels.xml */; };
+		E7743CFC1AF6DDE000E2626C /* RSHelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7743CFB1AF6DDE000E2626C /* RSHelpView.m */; };
+		E7809BF01A9A007F00EA9BDF /* RSPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = E7809BEF1A9A007F00EA9BDF /* RSPalette.m */; };
+		E7866EAF1AED295A00177433 /* RSRateAppDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7866EAE1AED295A00177433 /* RSRateAppDialogView.m */; };
+		E7866EB21AED2C3200177433 /* RSWinnerDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7866EB11AED2C3200177433 /* RSWinnerDialogView.m */; };
+		E795C8951CDC908D00EE06D9 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = E795C8911CDC908D00EE06D9 /* FXBlurView.m */; };
+		E795C8961CDC908D00EE06D9 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E795C8941CDC908D00EE06D9 /* SoundManager.m */; };
+		E797118D1AE6BACE00AF111E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E797118F1AE6BACE00AF111E /* Localizable.strings */; };
+		E7C300421A9107F500DB262A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C300411A9107F500DB262A /* main.m */; };
+		E7C300451A9107F500DB262A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C300441A9107F500DB262A /* AppDelegate.m */; };
+		E7C300481A9107F500DB262A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C300471A9107F500DB262A /* ViewController.m */; };
+		E7C3006B1A9117BB00DB262A /* RSGameLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C3006A1A9117BB00DB262A /* RSGameLevel.m */; };
+		E7C300731A9123BA00DB262A /* RSColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C300721A9123BA00DB262A /* RSColorView.m */; };
+		E7C3007E1A912DBE00DB262A /* RSGameZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C3007D1A912DBE00DB262A /* RSGameZoneView.m */; };
+		E7C69DE21CDC8FB5005F033D /* UIButton+Rigibi.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C69DDD1CDC8FB5005F033D /* UIButton+Rigibi.m */; };
+		E7C69DE31CDC8FB5005F033D /* UIColor+Rigibi.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C69DDF1CDC8FB5005F033D /* UIColor+Rigibi.m */; };
+		E7C69DE41CDC8FB5005F033D /* UIView+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C69DE11CDC8FB5005F033D /* UIView+Blur.m */; };
+		E7C69DE71CDC9013005F033D /* RSTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C69DE61CDC9013005F033D /* RSTimer.m */; };
+		E7CFB4071AB793CF00DC44A1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CFB4061AB793CF00DC44A1 /* Social.framework */; };
+		E7CFB4091AB79D5700DC44A1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CFB4081AB79D5700DC44A1 /* StoreKit.framework */; };
+		E7D1F5B31AB58BE700880156 /* RSRoundedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D1F5B21AB58BE700880156 /* RSRoundedView.m */; };
+		E7D6A3C01AB8838D003E60F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D6A3BF1AB8838D003E60F7 /* QuartzCore.framework */; };
+		E7D6A3C61AB89DC9003E60F7 /* RSProcessButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D6A3C51AB89DC9003E60F7 /* RSProcessButton.m */; };
+		E7D77C631AEFB8CA004B3E56 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E7D77C621AEFB8CA004B3E56 /* Podfile */; };
+		E7DAFCA31A93C6CF00CD1A80 /* RSColorBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = E7DAFCA21A93C6CF00CD1A80 /* RSColorBlock.m */; };
+		E7DFB6791BEA183B00FB48AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7DFB67B1BEA183B00FB48AD /* Main.storyboard */; };
+		E7E420C51AD803A0004D20AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7E420C41AD803A0004D20AF /* AVFoundation.framework */; };
+		E7E421001AD81BC8004D20AF /* key.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FA1AD81BC8004D20AF /* key.mp3 */; };
+		E7E421011AD81BC8004D20AF /* mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FB1AD81BC8004D20AF /* mix.mp3 */; };
+		E7E421021AD81BC8004D20AF /* restart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FC1AD81BC8004D20AF /* restart.mp3 */; };
+		E7E421031AD81BC8004D20AF /* rewind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FD1AD81BC8004D20AF /* rewind.mp3 */; };
+		E7E421041AD81BC8004D20AF /* unlock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FE1AD81BC8004D20AF /* unlock.mp3 */; };
+		E7E421051AD81BC8004D20AF /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E7E420FF1AD81BC8004D20AF /* win.mp3 */; };
+		E7F74CE91AB4A4B400986738 /* RSNoKeysDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F74CE81AB4A4B400986738 /* RSNoKeysDialogView.m */; };
+		E7FC97871AED97B200866926 /* RSMixButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E7FC97861AED97B200866926 /* RSMixButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562093AAB3AE2A89F364F991 /* Pods-Rigibi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rigibi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rigibi/Pods-Rigibi.debug.xcconfig"; sourceTree = "<group>"; };
+		68678CC032C440A162B0E164 /* Pods-Rigibi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rigibi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rigibi/Pods-Rigibi.release.xcconfig"; sourceTree = "<group>"; };
+		D6EB236D2700FC2604AB762A /* libPods-Rigibi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rigibi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E700446D1AEFA1A40065B596 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		E70C621A1AF3BA3C005E902C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E71B4F571AAE5055008C12A2 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E71E14D81AFD121300A36A1A /* RSHexLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSHexLabel.h; path = Views/RSHexLabel.h; sourceTree = "<group>"; };
+		E71E14D91AFD121300A36A1A /* RSHexLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSHexLabel.m; path = Views/RSHexLabel.m; sourceTree = "<group>"; };
+		E72291A71B015D6800F3483E /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		E73B729E1AFFA33A00CCE37E /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		E760F5051AAF75E2006590E6 /* 99levels.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 99levels.xml; sourceTree = "<group>"; };
+		E7743CFA1AF6DDE000E2626C /* RSHelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSHelpView.h; path = Views/RSHelpView.h; sourceTree = "<group>"; };
+		E7743CFB1AF6DDE000E2626C /* RSHelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSHelpView.m; path = Views/RSHelpView.m; sourceTree = "<group>"; };
+		E7809BEE1A9A007F00EA9BDF /* RSPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSPalette.h; path = Model/RSPalette.h; sourceTree = "<group>"; };
+		E7809BEF1A9A007F00EA9BDF /* RSPalette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSPalette.m; path = Model/RSPalette.m; sourceTree = "<group>"; };
+		E7866EAD1AED295A00177433 /* RSRateAppDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSRateAppDialogView.h; path = Views/RSRateAppDialogView.h; sourceTree = "<group>"; };
+		E7866EAE1AED295A00177433 /* RSRateAppDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSRateAppDialogView.m; path = Views/RSRateAppDialogView.m; sourceTree = "<group>"; };
+		E7866EB01AED2C3200177433 /* RSWinnerDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSWinnerDialogView.h; path = Views/RSWinnerDialogView.h; sourceTree = "<group>"; };
+		E7866EB11AED2C3200177433 /* RSWinnerDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSWinnerDialogView.m; path = Views/RSWinnerDialogView.m; sourceTree = "<group>"; };
+		E795C8901CDC908D00EE06D9 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		E795C8911CDC908D00EE06D9 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		E795C8931CDC908D00EE06D9 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+		E795C8941CDC908D00EE06D9 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		E79711911AE6BAEB00AF111E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E79711921AE6F90E00AF111E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C3003C1A9107F500DB262A /* Rigibi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rigibi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7C300401A9107F500DB262A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7C300411A9107F500DB262A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7C300431A9107F500DB262A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7C300441A9107F500DB262A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7C300461A9107F500DB262A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7C300471A9107F500DB262A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7C300691A9117BB00DB262A /* RSGameLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSGameLevel.h; path = Model/RSGameLevel.h; sourceTree = "<group>"; };
+		E7C3006A1A9117BB00DB262A /* RSGameLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSGameLevel.m; path = Model/RSGameLevel.m; sourceTree = "<group>"; };
+		E7C3006C1A911BD000DB262A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E7C3006F1A911F6A00DB262A /* Protocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Protocols.h; sourceTree = "<group>"; };
+		E7C300711A9123BA00DB262A /* RSColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorView.h; path = Views/RSColorView.h; sourceTree = "<group>"; };
+		E7C300721A9123BA00DB262A /* RSColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorView.m; path = Views/RSColorView.m; sourceTree = "<group>"; };
+		E7C3007C1A912DBE00DB262A /* RSGameZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSGameZoneView.h; path = Views/RSGameZoneView.h; sourceTree = "<group>"; };
+		E7C3007D1A912DBE00DB262A /* RSGameZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSGameZoneView.m; path = Views/RSGameZoneView.m; sourceTree = "<group>"; };
+		E7C666E81B00D5D600805D13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C666E91B00D5DC00805D13 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C666EA1B00D5E100805D13 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C666EB1B00D5EB00805D13 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C666EC1B00D5F300805D13 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E7C69DDC1CDC8FB5005F033D /* UIButton+Rigibi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Rigibi.h"; path = "Extentions.h/UIButton+Rigibi.h"; sourceTree = "<group>"; };
+		E7C69DDD1CDC8FB5005F033D /* UIButton+Rigibi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Rigibi.m"; path = "Extentions.h/UIButton+Rigibi.m"; sourceTree = "<group>"; };
+		E7C69DDE1CDC8FB5005F033D /* UIColor+Rigibi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Rigibi.h"; path = "Extentions.h/UIColor+Rigibi.h"; sourceTree = "<group>"; };
+		E7C69DDF1CDC8FB5005F033D /* UIColor+Rigibi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Rigibi.m"; path = "Extentions.h/UIColor+Rigibi.m"; sourceTree = "<group>"; };
+		E7C69DE01CDC8FB5005F033D /* UIView+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Blur.h"; path = "Extentions.h/UIView+Blur.h"; sourceTree = "<group>"; };
+		E7C69DE11CDC8FB5005F033D /* UIView+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Blur.m"; path = "Extentions.h/UIView+Blur.m"; sourceTree = "<group>"; };
+		E7C69DE51CDC9013005F033D /* RSTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSTimer.h; path = Model/RSTimer.h; sourceTree = "<group>"; };
+		E7C69DE61CDC9013005F033D /* RSTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSTimer.m; path = Model/RSTimer.m; sourceTree = "<group>"; };
+		E7CFB4061AB793CF00DC44A1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E7CFB4081AB79D5700DC44A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		E7D1F5B11AB58BE700880156 /* RSRoundedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSRoundedView.h; path = Views/RSRoundedView.h; sourceTree = "<group>"; };
+		E7D1F5B21AB58BE700880156 /* RSRoundedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSRoundedView.m; path = Views/RSRoundedView.m; sourceTree = "<group>"; };
+		E7D6A3BF1AB8838D003E60F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E7D6A3C41AB89DC9003E60F7 /* RSProcessButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSProcessButton.h; path = Views/RSProcessButton.h; sourceTree = "<group>"; };
+		E7D6A3C51AB89DC9003E60F7 /* RSProcessButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSProcessButton.m; path = Views/RSProcessButton.m; sourceTree = "<group>"; };
+		E7D77C621AEFB8CA004B3E56 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E7DAFCA11A93C6CF00CD1A80 /* RSColorBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSColorBlock.h; path = Model/RSColorBlock.h; sourceTree = "<group>"; };
+		E7DAFCA21A93C6CF00CD1A80 /* RSColorBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSColorBlock.m; path = Model/RSColorBlock.m; sourceTree = "<group>"; };
+		E7DFB67A1BEA183B00FB48AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB67C1BEA183E00FB48AD /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ru; path = ru.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB67D1BEA184400FB48AD /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB67E1BEA184600FB48AD /* de */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = de; path = de.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB67F1BEA184700FB48AD /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = ja; path = ja.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB6801BEA184800FB48AD /* es */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = es; path = es.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7DFB6811BEA184900FB48AD /* sv */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = sv; path = sv.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7E420C41AD803A0004D20AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E7E420FA1AD81BC8004D20AF /* key.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = key.mp3; sourceTree = "<group>"; };
+		E7E420FB1AD81BC8004D20AF /* mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mix.mp3; sourceTree = "<group>"; };
+		E7E420FC1AD81BC8004D20AF /* restart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = restart.mp3; sourceTree = "<group>"; };
+		E7E420FD1AD81BC8004D20AF /* rewind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rewind.mp3; sourceTree = "<group>"; };
+		E7E420FE1AD81BC8004D20AF /* unlock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = unlock.mp3; sourceTree = "<group>"; };
+		E7E420FF1AD81BC8004D20AF /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		E7F74CE71AB4A4B400986738 /* RSNoKeysDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSNoKeysDialogView.h; path = Views/RSNoKeysDialogView.h; sourceTree = "<group>"; };
+		E7F74CE81AB4A4B400986738 /* RSNoKeysDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSNoKeysDialogView.m; path = Views/RSNoKeysDialogView.m; sourceTree = "<group>"; };
+		E7FC97851AED97B200866926 /* RSMixButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RSMixButton.h; path = Views/RSMixButton.h; sourceTree = "<group>"; };
+		E7FC97861AED97B200866926 /* RSMixButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RSMixButton.m; path = Views/RSMixButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7C300391A9107F500DB262A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E420C51AD803A0004D20AF /* AVFoundation.framework in Frameworks */,
+				E7D6A3C01AB8838D003E60F7 /* QuartzCore.framework in Frameworks */,
+				E7CFB4071AB793CF00DC44A1 /* Social.framework in Frameworks */,
+				E72291A81B015D6800F3483E /* GameKit.framework in Frameworks */,
+				E7CFB4091AB79D5700DC44A1 /* StoreKit.framework in Frameworks */,
+				95046F9313B0DF24EB034D16 /* libPods-Rigibi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6173C365D564770E277DF6FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				562093AAB3AE2A89F364F991 /* Pods-Rigibi.debug.xcconfig */,
+				68678CC032C440A162B0E164 /* Pods-Rigibi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E795C88E1CDC908D00EE06D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E795C88F1CDC908D00EE06D9 /* FXBlurView */,
+				E795C8921CDC908D00EE06D9 /* SoundManager */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E795C88F1CDC908D00EE06D9 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				E795C8901CDC908D00EE06D9 /* FXBlurView.h */,
+				E795C8911CDC908D00EE06D9 /* FXBlurView.m */,
+			);
+			path = FXBlurView;
+			sourceTree = "<group>";
+		};
+		E795C8921CDC908D00EE06D9 /* SoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				E795C8931CDC908D00EE06D9 /* SoundManager.h */,
+				E795C8941CDC908D00EE06D9 /* SoundManager.m */,
+			);
+			path = SoundManager;
+			sourceTree = "<group>";
+		};
+		E7C300331A9107F500DB262A = {
+			isa = PBXGroup;
+			children = (
+				E7C3003E1A9107F500DB262A /* Rigibi */,
+				E7CFB40A1AB8532000DC44A1 /* Frameworks */,
+				E7C3003D1A9107F500DB262A /* Products */,
+				6173C365D564770E277DF6FD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E7C3003D1A9107F500DB262A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7C3003C1A9107F500DB262A /* Rigibi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7C3003E1A9107F500DB262A /* Rigibi */ = {
+			isa = PBXGroup;
+			children = (
+				E7C300701A91236000DB262A /* Views */,
+				E7C300651A91173F00DB262A /* Model */,
+				E7C300781A91266000DB262A /* Main */,
+				E7C300771A91264300DB262A /* Extentions */,
+			);
+			name = Rigibi;
+			sourceTree = "<group>";
+		};
+		E7C300651A91173F00DB262A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7C69DE51CDC9013005F033D /* RSTimer.h */,
+				E7C69DE61CDC9013005F033D /* RSTimer.m */,
+				E7DAFCA11A93C6CF00CD1A80 /* RSColorBlock.h */,
+				E7DAFCA21A93C6CF00CD1A80 /* RSColorBlock.m */,
+				E7C300691A9117BB00DB262A /* RSGameLevel.h */,
+				E7C3006A1A9117BB00DB262A /* RSGameLevel.m */,
+				E7809BEE1A9A007F00EA9BDF /* RSPalette.h */,
+				E7809BEF1A9A007F00EA9BDF /* RSPalette.m */,
+			);
+			name = Model;
+			path = Rigibi;
+			sourceTree = "<group>";
+		};
+		E7C300701A91236000DB262A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E71E14D81AFD121300A36A1A /* RSHexLabel.h */,
+				E71E14D91AFD121300A36A1A /* RSHexLabel.m */,
+				E7C300711A9123BA00DB262A /* RSColorView.h */,
+				E7C300721A9123BA00DB262A /* RSColorView.m */,
+				E7D1F5B11AB58BE700880156 /* RSRoundedView.h */,
+				E7D1F5B21AB58BE700880156 /* RSRoundedView.m */,
+				E7C3007C1A912DBE00DB262A /* RSGameZoneView.h */,
+				E7C3007D1A912DBE00DB262A /* RSGameZoneView.m */,
+				E7FC97851AED97B200866926 /* RSMixButton.h */,
+				E7FC97861AED97B200866926 /* RSMixButton.m */,
+				E7D6A3C41AB89DC9003E60F7 /* RSProcessButton.h */,
+				E7D6A3C51AB89DC9003E60F7 /* RSProcessButton.m */,
+				E7866EAD1AED295A00177433 /* RSRateAppDialogView.h */,
+				E7866EAE1AED295A00177433 /* RSRateAppDialogView.m */,
+				E7F74CE71AB4A4B400986738 /* RSNoKeysDialogView.h */,
+				E7F74CE81AB4A4B400986738 /* RSNoKeysDialogView.m */,
+				E7866EB01AED2C3200177433 /* RSWinnerDialogView.h */,
+				E7866EB11AED2C3200177433 /* RSWinnerDialogView.m */,
+				E7743CFA1AF6DDE000E2626C /* RSHelpView.h */,
+				E7743CFB1AF6DDE000E2626C /* RSHelpView.m */,
+			);
+			name = Views;
+			path = Rigibi;
+			sourceTree = "<group>";
+		};
+		E7C300771A91264300DB262A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				E7C69DDC1CDC8FB5005F033D /* UIButton+Rigibi.h */,
+				E7C69DDD1CDC8FB5005F033D /* UIButton+Rigibi.m */,
+				E7C69DDE1CDC8FB5005F033D /* UIColor+Rigibi.h */,
+				E7C69DDF1CDC8FB5005F033D /* UIColor+Rigibi.m */,
+				E7C69DE01CDC8FB5005F033D /* UIView+Blur.h */,
+				E7C69DE11CDC8FB5005F033D /* UIView+Blur.m */,
+			);
+			name = Extentions;
+			path = Rigibi;
+			sourceTree = "<group>";
+		};
+		E7C300781A91266000DB262A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E7E420B91AD80330004D20AF /* Sound */,
+				E7C300431A9107F500DB262A /* AppDelegate.h */,
+				E7C300441A9107F500DB262A /* AppDelegate.m */,
+				E7C300461A9107F500DB262A /* ViewController.h */,
+				E7C300471A9107F500DB262A /* ViewController.m */,
+				E7DFB67B1BEA183B00FB48AD /* Main.storyboard */,
+				E71B4F571AAE5055008C12A2 /* LaunchScreen.xib */,
+				E7D77C621AEFB8CA004B3E56 /* Podfile */,
+				E760F5051AAF75E2006590E6 /* 99levels.xml */,
+				E70C621A1AF3BA3C005E902C /* Images.xcassets */,
+				E7C300401A9107F500DB262A /* Info.plist */,
+				E7C300411A9107F500DB262A /* main.m */,
+				E7C3006C1A911BD000DB262A /* PrefixHeader.pch */,
+				E7C3006F1A911F6A00DB262A /* Protocols.h */,
+				E797118F1AE6BACE00AF111E /* Localizable.strings */,
+			);
+			name = Main;
+			path = Rigibi;
+			sourceTree = "<group>";
+		};
+		E7CFB40A1AB8532000DC44A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E795C88E1CDC908D00EE06D9 /* Frameworks */,
+				E72291A71B015D6800F3483E /* GameKit.framework */,
+				E73B729E1AFFA33A00CCE37E /* CloudKit.framework */,
+				E7E420C41AD803A0004D20AF /* AVFoundation.framework */,
+				E7D6A3BF1AB8838D003E60F7 /* QuartzCore.framework */,
+				E7CFB4081AB79D5700DC44A1 /* StoreKit.framework */,
+				E7CFB4061AB793CF00DC44A1 /* Social.framework */,
+				D6EB236D2700FC2604AB762A /* libPods-Rigibi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7E420B91AD80330004D20AF /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				E7E420FA1AD81BC8004D20AF /* key.mp3 */,
+				E7E420FB1AD81BC8004D20AF /* mix.mp3 */,
+				E700446D1AEFA1A40065B596 /* gameover.mp3 */,
+				E7E420FC1AD81BC8004D20AF /* restart.mp3 */,
+				E7E420FD1AD81BC8004D20AF /* rewind.mp3 */,
+				E7E420FE1AD81BC8004D20AF /* unlock.mp3 */,
+				E7E420FF1AD81BC8004D20AF /* win.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7C3003B1A9107F500DB262A /* Rigibi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7C3005F1A9107F600DB262A /* Build configuration list for PBXNativeTarget "Rigibi" */;
+			buildPhases = (
+				E7FA47E85CEAE1F50BECADE4 /* Check Pods Manifest.lock */,
+				E7C300381A9107F500DB262A /* Sources */,
+				E7C300391A9107F500DB262A /* Frameworks */,
+				E7C3003A1A9107F500DB262A /* Resources */,
+				8C69B8CF27C819CB14707383 /* Copy Pods Resources */,
+				941B72CBEF901CF8CC664878 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rigibi;
+			productName = Colorix;
+			productReference = E7C3003C1A9107F500DB262A /* Rigibi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7C300341A9107F500DB262A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Roman Silin";
+				TargetAttributes = {
+					E7C3003B1A9107F500DB262A = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = E7C300371A9107F500DB262A /* Build configuration list for PBXProject "Rigibi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				fr,
+				de,
+				ja,
+				es,
+				sv,
+			);
+			mainGroup = E7C300331A9107F500DB262A;
+			productRefGroup = E7C3003D1A9107F500DB262A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7C3003B1A9107F500DB262A /* Rigibi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7C3003A1A9107F500DB262A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E421021AD81BC8004D20AF /* restart.mp3 in Resources */,
+				E7E421031AD81BC8004D20AF /* rewind.mp3 in Resources */,
+				E797118D1AE6BACE00AF111E /* Localizable.strings in Resources */,
+				E70C621B1AF3BA3C005E902C /* Images.xcassets in Resources */,
+				E7E421001AD81BC8004D20AF /* key.mp3 in Resources */,
+				E760F5061AAF75E2006590E6 /* 99levels.xml in Resources */,
+				E7E421051AD81BC8004D20AF /* win.mp3 in Resources */,
+				E7DFB6791BEA183B00FB48AD /* Main.storyboard in Resources */,
+				E7E421011AD81BC8004D20AF /* mix.mp3 in Resources */,
+				E700446E1AEFA1A40065B596 /* gameover.mp3 in Resources */,
+				E7D77C631AEFB8CA004B3E56 /* Podfile in Resources */,
+				E71B4F581AAE5055008C12A2 /* LaunchScreen.xib in Resources */,
+				E7E421041AD81BC8004D20AF /* unlock.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C69B8CF27C819CB14707383 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rigibi/Pods-Rigibi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		941B72CBEF901CF8CC664878 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rigibi/Pods-Rigibi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7FA47E85CEAE1F50BECADE4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7C300381A9107F500DB262A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C69DE31CDC8FB5005F033D /* UIColor+Rigibi.m in Sources */,
+				E7C3006B1A9117BB00DB262A /* RSGameLevel.m in Sources */,
+				E795C8951CDC908D00EE06D9 /* FXBlurView.m in Sources */,
+				E7FC97871AED97B200866926 /* RSMixButton.m in Sources */,
+				E7DAFCA31A93C6CF00CD1A80 /* RSColorBlock.m in Sources */,
+				E7C69DE21CDC8FB5005F033D /* UIButton+Rigibi.m in Sources */,
+				E7C300481A9107F500DB262A /* ViewController.m in Sources */,
+				E7D6A3C61AB89DC9003E60F7 /* RSProcessButton.m in Sources */,
+				E7C3007E1A912DBE00DB262A /* RSGameZoneView.m in Sources */,
+				E7866EB21AED2C3200177433 /* RSWinnerDialogView.m in Sources */,
+				E7F74CE91AB4A4B400986738 /* RSNoKeysDialogView.m in Sources */,
+				E7743CFC1AF6DDE000E2626C /* RSHelpView.m in Sources */,
+				E7C69DE41CDC8FB5005F033D /* UIView+Blur.m in Sources */,
+				E7809BF01A9A007F00EA9BDF /* RSPalette.m in Sources */,
+				E7D1F5B31AB58BE700880156 /* RSRoundedView.m in Sources */,
+				E7C300731A9123BA00DB262A /* RSColorView.m in Sources */,
+				E71E14DA1AFD121300A36A1A /* RSHexLabel.m in Sources */,
+				E7C69DE71CDC9013005F033D /* RSTimer.m in Sources */,
+				E7866EAF1AED295A00177433 /* RSRateAppDialogView.m in Sources */,
+				E7C300451A9107F500DB262A /* AppDelegate.m in Sources */,
+				E7C300421A9107F500DB262A /* main.m in Sources */,
+				E795C8961CDC908D00EE06D9 /* SoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E797118F1AE6BACE00AF111E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E79711911AE6BAEB00AF111E /* ru */,
+				E79711921AE6F90E00AF111E /* en */,
+				E7C666E81B00D5D600805D13 /* fr */,
+				E7C666E91B00D5DC00805D13 /* de */,
+				E7C666EA1B00D5E100805D13 /* ja */,
+				E7C666EB1B00D5EB00805D13 /* es */,
+				E7C666EC1B00D5F300805D13 /* sv */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E7DFB67B1BEA183B00FB48AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7DFB67A1BEA183B00FB48AD /* en */,
+				E7DFB67C1BEA183E00FB48AD /* ru */,
+				E7DFB67D1BEA184400FB48AD /* fr */,
+				E7DFB67E1BEA184600FB48AD /* de */,
+				E7DFB67F1BEA184700FB48AD /* ja */,
+				E7DFB6801BEA184800FB48AD /* es */,
+				E7DFB6811BEA184900FB48AD /* sv */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7C3005D1A9107F600DB262A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		E7C3005E1A9107F600DB262A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7C300601A9107F600DB262A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562093AAB3AE2A89F364F991 /* Pods-Rigibi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rigibi/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Rigibi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Rigibi;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7C300611A9107F600DB262A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68678CC032C440A162B0E164 /* Pods-Rigibi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Rigibi/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/Rigibi/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RS.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Rigibi;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7C300371A9107F500DB262A /* Build configuration list for PBXProject "Rigibi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C3005D1A9107F600DB262A /* Debug */,
+				E7C3005E1A9107F600DB262A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7C3005F1A9107F600DB262A /* Build configuration list for PBXNativeTarget "Rigibi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7C300601A9107F600DB262A /* Debug */,
+				E7C300611A9107F600DB262A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7C300341A9107F500DB262A /* Project object */;
+}

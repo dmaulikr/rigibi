@@ -1,0 +1,36 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - KSCrash/no-arc (0.0.6)
+  - KSCrash/Recording (0.0.6):
+    - KSCrash/no-arc
+  - KSCrash/Reporting/Filters/AppleFmt (0.0.6):
+    - KSCrash/Recording
+    - KSCrash/Reporting/Filters/Base
+  - KSCrash/Reporting/Filters/Base (0.0.6):
+    - KSCrash/Recording
+  - protobuf-c (1.0.1)
+  - RMStore (0.7.1):
+    - RMStore/Core (= 0.7.1)
+  - RMStore/Core (0.7.1)
+  - YandexMobileMetrica (2.1.1):
+    - FMDB (~> 2.2)
+    - KSCrash/Recording (~> 0.0.5)
+    - KSCrash/Reporting/Filters/AppleFmt (~> 0.0.5)
+    - protobuf-c (~> 1.0.1)
+
+DEPENDENCIES:
+  - RMStore (~> 0.7)
+  - YandexMobileMetrica (= 2.1.1)
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  KSCrash: c6ab634b7d7c63d6b9abc2ef00f995cbd9eead1e
+  protobuf-c: 87088f5a154d5293d9c75b44fc48b497056f4e76
+  RMStore: 64ba13a9c040e3b7572765d169f77175cd3243e5
+  YandexMobileMetrica: cfc5935da0dae6494c8e1c9adc78bc6904776725
+
+COCOAPODS: 0.39.0

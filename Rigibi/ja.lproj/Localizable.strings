@@ -1,0 +1,66 @@
+/*
+ Localizable.strings
+ Rigibi
+ 
+ Created by Roman Silin on 21/04/15.
+ Copyright (c) 2015 Roman Silin. All rights reserved.
+ */
+
+
+"RGB_G" = "G";
+
+// Tutorials
+
+"TUTORIAL_SWIPE" = "新しい色を得るために正方形\nをスワイプして（画面上で指\nを滑らせて）ください";
+"TUTORIAL_BORDER" = "境界の色を得るために正し\nい順に色を混ぜてください";
+"TUTORIAL_HEX_1" = "コーナーでアイ（目）・\nボタンを試してください";
+"TUTORIAL_HEX_2" = "どのパズルも、これらのカラー\nコードを使うことによって解く\nことができます";
+"TUTORIAL_FREEKEY" = "難問に出会ったときは、\nそれぞれ*FREEKEY_LEVELSCOUNT*レベルのフリー・キー\nが助けてくれます";
+
+"HEXHELP_01" = "<strong>RGB</strong>は<font color='#ff0000'>赤</font>、<font color='#00ff00'>緑</font>、そして<font color='#0000ff'>青</font>の光が、広範囲にわたって一連の色を複製するために、さまざまな方法で加えられたカラーモデルです。";
+"HEXHELP_02" = "<strong>HEX</strong>は16のベースを持った数字システムです。HEXでの<strong>0-255</strong>が<strong>00-FF</strong>のように見えます。";
+"HEXHELP_03" = "<strong>ある2色を混ぜた結果は</strong>、それぞれRGBチャネルの中間の明度を持つ新しい色です。<br><br><strong><font color='#ff00ff'>#FF00FF</font> + <font color='#ffff00'>#FFFF00</font> = <font color='#ff7f7f'>#FF7F7F</font><br><font color='#00ff00'>#00FF00</font> + <font color='#0000ff'>#0000FF</font> = <font color='#007f7f'>#007F7F</font><br><font color='#7f7fff'>#7F7FFF</font> + <font color='#ff0000'>#FF0000</font> = <font color='#bf3f7f'>#BF3F7F</font></strong><br><br>ほとんどのレベルが、単一の明度<strong>00、7F、FF</strong>内で解決されます。しかし、まれに、難しい明度<strong>00、3F、7F、BF、FF</strong>(色の0-25-50-75-100%)を持つレベルもあります。";
+
+// Dialogs
+
+"DIALOG_ENJOYINGRIGIBI" = "\nRigibiを楽しんでいますか？";
+"DIALOG_NOT" = "あんまり";
+"DIALOG_YES" = "はい！";
+
+"DIALOG_HOWABOUTARATING" = "App Storeで私た\nちを評価しますか？";
+"DIALOG_HOWABOUTAFEEDBACK" = "私たちにいくつかのフィード\nバックを与えてくれますか？";
+"DIALOG_NOTHANKS" = "いいえ、\n結構です";
+"DIALOG_YESSURE" = "はい、\nもちろん";
+
+"DIALOG_YOUARETHEWINNER" = "わーお！\n\nすべてのレベルを通過し、\nあなたが勝者です！";
+"DIALOG_THANKSFORPLAYING" = "プレーしてくれてありがとう！";
+"DIALOG_IGOTIT" = "元に戻してください";
+
+//"DIALOG_KEYS" = "それぞれ*FREEKEY_LEVELSCOUNT*レベルを解決\nすることによって、フリ\nー・キーが手に入ります。";
+"DIALOG_KEYS" = "キーはあなたが問題を解決するのに役立ちます";
+
+"DIALOG_STOREUNAVAILABLE" = "ストアが利用できません";
+"DIALOG_PURCHASED" = "  で購入";
+"DIALOG_PRICEDEVIDER" = "は";
+"DIALOG_TRYCONNECT" = "ストアに接続し\nてみてください";
+"DIALOG_RESTORE_PURCHASES" = "購入を復元";
+"DIALOG_RESTORING" = "復元中...";
+"DIALOG_NOTRESTORED" = "あなたは何も購\n入していません";
+"DIALOG_BACK" = "ゲームに\n戻ります";
+
+
+// Social sharing
+
+"SHARE_WIN" = "#rigibi のすべてのレベルが解決されました。私はスーパー脳よ、いえーい！";
+"SHARE_HELP" = "助けが必要です！あなたは #rigibi でこのパズルを解く方法を知っていますか？";
+
+"MAIL_THEME" = "Feedback on Rigibi";
+"MAIL_BODY" = "Hi!\n\nI want to tell you that...";
+
+
+// Errors
+
+"ERROR_TITLE" = "ごめんなさい";
+"ERROR_MAIL" = "今はメールを送信できません。少なくとも1つのメールアカウントを設定していることを確認してください。また、ウェブ上で私たちの連絡先を見つけることができます：*RIGIBI_URL*.";
+"ERROR_FACEBOOK" = "今、投稿することはできません。あなたのデバイスがインターネットに接続していることと、少なくとも一つのFacebookのアカウントを設定していることを確認してください。";
+"ERROR_TWITTER" = "今、ツイートを送信することができません。あなたのデバイスがインターネットに接続していることと、少なくとも一つのTwitterアカウントを設定していることを確認してください。";

@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Rigibi
+//
+//  Created by Roman Silin on 15.02.15.
+//  Copyright (c) 2015 Roman Silin. All rights reserved.
+//
+
+#ifndef Rigibi_PrefixHeader_pch
+#define Rigibi_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <GameKit/GameKit.h>
+#import <YandexMobileMetrica/YandexMobileMetrica.h>
+#import "Protocols.h"
+#import "UIColor+Rigibi.h"
+#import "UIButton+Rigibi.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif

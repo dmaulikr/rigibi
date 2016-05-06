@@ -1,0 +1,67 @@
+/*
+ Localizable.strings
+ Rigibi
+ 
+ Created by Roman Silin on 21/04/15.
+ Copyright (c) 2015 Roman Silin. All rights reserved.
+ */
+
+
+"RGB_G" = "G";
+
+// Tutorials
+
+"TUTORIAL_SWIPE" = "Bryt fyrkanter\nför att få en ny färg";
+"TUTORIAL_BORDER" = "Blanda färger på en rätt ordning\nför att få en kantfärg";
+"TUTORIAL_HEX_1" = "Prova på ögats knappen i hörnet";
+"TUTORIAL_HEX_2" = "Alla pussel kan lösas\nmed hjälp av dessa färgkoder";
+"TUTORIAL_FREEKEY" = "En gratis nyckel för varje *FREEKEY_LEVELSCOUNT*\nnivåer kan hjälpa dig när\ndu möter svårigheter";
+
+"HEXHELP_01" = "<strong>RGB</strong> är en förkortning för färgerna <font color='#ff0000'>rött</font>, <font color='#00ff00'>grönt</font> och <font color='#0000ff'>blått</font>, vilka används som grundfärger i färgblandning.";
+"HEXHELP_02" = "Den <strong>HEX</strong> är siffran systemet med bas 16. <strong>0-255</strong> i HEX ser ut som <strong>00-FF</strong>.";
+"HEXHELP_03" = "<strong>Ett resultat av en två färger blandning</strong> är en ny färg med medelvärdena för varje RGB kanal.<br><br><strong><font color='#ff00ff'>#FF00FF</font> + <font color='#ffff00'>#FFFF00</font> = <font color='#ff7f7f'>#FF7F7F</font><br><font color='#00ff00'>#00FF00</font> + <font color='#0000ff'>#0000FF</font> = <font color='#007f7f'>#007F7F</font><br><font color='#7f7fff'>#7F7FFF</font> + <font color='#ff0000'>#FF0000</font> = <font color='#bf3f7f'>#BF3F7F</font></strong><br><br>De flesta nivåer löses inom enkla värden <strong>00, 7F, FF</strong>, men några nivåer har svårare värden <strong>00, 3F, 7F, BF, FF</strong> (0-25-50-75-100% av en färg).";
+
+// Dialogs
+
+"DIALOG_ENJOYINGRIGIBI" = "\nGillar du Rigibi?";
+"DIALOG_NOT" = "Inte riktigt";
+"DIALOG_YES" = "Ja!";
+
+"DIALOG_HOWABOUTARATING" = "\nVärderar du oss på App Store?";
+"DIALOG_HOWABOUTAFEEDBACK" = "\nGe oss någon feedback?";
+"DIALOG_NOTHANKS" = "Nej tack";
+"DIALOG_YESSURE" = "Ja visst";
+
+"DIALOG_YOUARETHEWINNER" = "WOW!\n\nAlla nivåer är passerat,\ndu är vinnaren!";
+"DIALOG_THANKSFORPLAYING" = "Tack för att spela!";
+"DIALOG_IGOTIT" = "Kom tillbaka";
+
+
+//"DIALOG_KEYS" = "Du kan få en gratis nyckel\ngenom att lösa varje *FREEKEY_LEVELSCOUNT* nivåer\n\nButiken är inte tillgänglig:";
+"DIALOG_KEYS" = "Nycklarna kan hjälpa\ndig när du\nmöter svårigheter";
+
+"DIALOG_STOREUNAVAILABLE" = "Butiken är inte tillgänglig";
+"DIALOG_PURCHASED" = "  köpt";
+"DIALOG_PRICEDEVIDER" = "för";
+"DIALOG_TRYCONNECT" = "Försök ansluta\ntill butiken";
+"DIALOG_RESTORE_PURCHASES" = "Återställa\ntidigare inköp ";
+"DIALOG_RESTORING" = "Återställning...";
+"DIALOG_NOTRESTORED" = "Du har\ninga köp";
+"DIALOG_BACK" = "Tillbaka\ntill spelet";
+
+
+// Social sharing
+
+"SHARE_WIN" = "Alla nivåer av #rigibi löses. Jag är en super hjärna, yeah!";
+"SHARE_HELP" = "Jag behöver hjälp! Vet du hur man kan lösa detta pussel i #rigibi?";
+
+"MAIL_THEME" = "Feedback on Rigibi";
+"MAIL_BODY" = "Hi!\n\nI want to tell you that...";
+
+
+// Errors
+
+"ERROR_TITLE" = "Ursäkta!";
+"ERROR_MAIL" = "Det är omöjligt att skapa brevet. Hålla koll på din kontostämning, kanske det är något felt. Du kan också hitta våra kontakter på nätet: *RIGIBI_URL*.";
+"ERROR_FACEBOOK" = "Du kan inte posta just nu, se till att enheten har en Internet-anslutning och du har minst ett Facebook-konto inställningar.";
+"ERROR_TWITTER" = "Du kan inte posta just nu, se till att enheten har en Internet-anslutning och du har minst ett Twitter-konto inställningar.";
